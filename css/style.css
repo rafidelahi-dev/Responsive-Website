@@ -67,6 +67,16 @@ img{
  position: relative;
  overflow: visible;
 }
+.showcase::before, .showcase::after{
+ background-color: white;
+ content: "sks";
+ height: 100px;
+ position: absolute;
+ bottom: -60px;
+ left: 0;
+ right: 0;
+ transform: skewY(-3deg);
+}
 .showcase-form{
  position: relative;
  top: 80px;
